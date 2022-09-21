@@ -1,1 +1,78 @@
 @charset "UTF-8";
+
+:root{
+	--base-text-color: #666;
+}
+/*========================
+   기본 설정
+========================*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{ font-size: 20px; } /*폰트 기준*/
+
+body{
+	font-family: "Maven Pro", "Nato Sans KR", sans-serif;
+	font-size: .7rem; /*14px로 렌더링*/
+	font-weight: 400;
+	color: var(--base-text-color);
+}
+
+.d-none{
+	display: none;
+}
+/*========================
+   아이콘
+========================*/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+/*========================
+   공통 설정
+========================*/
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.pos-relative{
+	position: relative;
+}
+
+.pos-absolute{
+	position: absolute;
+}
+
+button{
+	background-color: transparent; /*배경색 없음*/
+	border: 0;
+	outline: none;
+}
+/*========================
+   header
+========================*/
+header{
+	background-image: url("../images/visual_bg.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	height: 950px;
+	overflow: hidden;
+}
+.logo{
+	margin: 1rem 0 0 0;
+}
+.burger{		/*btn_menu.png 위치 지정*/
+	right: 0;
+	top: 1rem;
+}
+.slogan_text{
+	top: 15rem;
+    left: 10rem;
+}

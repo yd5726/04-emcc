@@ -5,13 +5,123 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>(주)이미그룹</title>
 		<link href="images/favicon.png" rel="shortcut icon">
+		<!-- jquery -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<!-- gf -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR&display=swap" rel="stylesheet">		
-		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- gfi -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />	
 	</head>
 	<body>
+		<h1 class="d-none">EMCC이미그룹</h1>
+		<!-- header+section+aside+footer|c -->
+		<!-- (header>.container>.logo+button+.slogan)+section+aside+footer|c -->
+		<header>
+			<div class="container pos-relative">
+				<div class="logo">
+					<a href="#">
+						<img src="images/gnb_logo.png" alt="emcc" />
+					</a>
+				</div><!-- /.logo -->
+				<button type="button" class="burger pos-absolute">
+					<img src="images/btn_menu.png" alt="burger" />
+				</button>
+				<div class="slogan_text pos-absolute">
+					<img src="images/slogan.png" alt="하늘에서 바다까지" />
+				</div>
+			</div><!-- /.container -->
+		</header><!-- header End -->
+		<section>
+			<h2 class="d-none">물관리 시스템, 생산제품, 기술인증서</h2>
+			<article>
+				<div class="container">
+					<h3 class="title">물관리 시스템</h3>
+					<p class="sub-title">water management systems</p>
+					<ul class="system-list">
+						<li>
+							<div class="overlay">
+								<p class="over-title">재해관리</p>
+								<span class="material-symbols-outlined">add_circle</span>
+							</div>
+							<img src="images/system_img1.jpg" alt="재해관리" />
+						</li>
+						<li>
+							<div class="overlay">
+								<p class="over-title">수질관리</p>
+								<span class="material-symbols-outlined">add_circle</span>
+							</div>
+							<img src="images/system_img2.jpg" alt="수질관리" />
+						</li>
+						<li>
+							<div class="overlay">
+								<p class="over-title">6차산업</p>
+								<span class="material-symbols-outlined">add_circle</span>
+							</div>
+							<img src="images/system_img3.jpg" alt="6차산업" />
+						</li>
+					</ul>
+				</div>
+			</article><!-- article no.1 -->
+			<article>
+				<div class="container">
+					<h3 class="title">생산제품</h3>
+					<p class="sub-title">2023년 신제품, 지능형<strong>텔레모스 시스템!</strong></p>
+					<div class="carousel">
+						<div class=prev>
+							<span class="material-symbols-outlined">navigate_before</span>
+						</div>
+						<ul class="items-list">
+								<li>
+									<img src="images/product.png" alt="2023 신제품" />
+									<button type="button" class=rounded-rect>자세히 보기</button>
+								</li>
+								<li>
+									<img src="images/product.png" alt="2023 신제품" />
+									<button type="button" class=rounded-rect>자세히 보기</button>
+								</li>
+								<li>
+									<img src="images/product.png" alt="2023 신제품" />
+									<button type="button" class=rounded-rect>자세히 보기</button>
+								</li>
+						</ul>
+						<div class=next>
+							<span class="material-symbols-outlined">navigate_next</span>
+						</div>
+					</div><!-- /.carousel -->
+				</div>
+			</article><!-- article no.2 -->
+		</section><!-- section End -->
+		<aside>
+			<h2 class="d-none">이미그룹 catch phrase</h2>
+				<div class="container">
+					<h3 class="catch-title">(주)이미그룹</h3>
+					<p class="catch-desc">사람과 자연 모두가 행복한 세상, <br>이미가 만들어 가고자 하는 미래입니다.</p>
+					<div class="">
+						<div class="contract">
+							<a href="tel:+820626760300">062)670-0300</a>
+						</div>
+						<div class="scroll-top">
+							<a href="#top">
+								<img src="images/btn_top.gif" alt="go top" />
+							</a>
+						</div>
+					</div>
+				</div>
+		</aside><!-- aside End -->
+		<footer>
+			<div class="container">
+				<h3><a href="#"><img src="images/footer_logo.png" alt="emcc" /></a></h3>
+				<p>
+					<strong class="company-name">(주)이미그룹</strong>
+					<em class="ceo">대표이사 : 이 미</em> 주소 : 광주광역시 서구 경열로 3, (농성동 281-4) EMCC 2F
+				</p>
+				<p>고객센터 : 1588-0300 팩스 : 062-376-0309 이메일 : cs@emcc.org</p>
+				<p><strong>emcc</strong>&copy;2022. all rights reserved.</p>
+			</div>
+		</footer>
 		<script src="script/main.js"></script>
 	</body>
 </html>
